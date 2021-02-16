@@ -1,0 +1,27 @@
+{
+  "name": "wolog-lambda-delete-workout",
+  "version": "0.1.0",
+  "description": "aws lambda for wolog",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "zip": "npm install; zip -r ${npm_package_name}.zip node_modules/ index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mojave27/wolog-lambda-delete-workout.git"
+  },
+  "keywords": [
+    "wolog",
+    "lambda"
+  ],
+  "author": "Marcus Bailey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mojave27/wolog-lambda-delete-workout/issues"
+  },
+  "homepage": "https://github.com/mojave27/wolog-lambda-delete-workout#readme",
+  "dependencies": {
+    "uuid": "^8.3.1"
+  }
+}
