@@ -1,0 +1,27 @@
+{
+  "name": "wolog-lambda-retrieve-programs",
+  "version": "0.1.0",
+  "description": "aws lambda for wolog",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "zip": "npm install && zip retrievePrograms.zip node_modules/ index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mojave27/wolog-lambda-retrievePrograms.git"
+  },
+  "keywords": [
+    "wolog",
+    "lambda"
+  ],
+  "author": "Marcus Bailey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mojave27/wolog-lambda-retrievePrograms/issues"
+  },
+  "homepage": "https://github.com/mojave27/wolog-lambda-retrievePrograms#readme",
+  "dependencies": {
+    "uuid": "^8.3.1"
+  }
+}

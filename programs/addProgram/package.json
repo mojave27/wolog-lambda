@@ -1,0 +1,27 @@
+{
+  "name": "wolog-lambda-addprogram",
+  "version": "0.1.0",
+  "description": "aws lambda for wolog",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "zip": "npm install; zip -r ${npm_package_name}.zip node_modules/ index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mojave27/${npm_package_name}.git"
+  },
+  "keywords": [
+    "wolog",
+    "lambda"
+  ],
+  "author": "Marcus Bailey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mojave27/${npm_package_name}/issues"
+  },
+  "homepage": "https://github.com/mojave27/${npm_package_name}/#readme",
+  "dependencies": {
+    "uuid": "^8.3.1"
+  }
+}

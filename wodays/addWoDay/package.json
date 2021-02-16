@@ -1,0 +1,26 @@
+{
+  "name": "wolog-lambda-addwoday",
+  "version": "0.1.0",
+  "description": "aws lambda for wolog",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mojave27/wolog-lambda-addWoDay.git"
+  },
+  "keywords": [
+    "wolog",
+    "lambda"
+  ],
+  "author": "Marcus Bailey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mojave27/wolog-lambda-addWoDay/issues"
+  },
+  "homepage": "https://github.com/mojave27/wolog-lambda-addWoDay#readme",
+  "dependencies": {
+    "uuid": "^8.3.1"
+  }
+}
