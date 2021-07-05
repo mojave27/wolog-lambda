@@ -1,0 +1,27 @@
+{
+  "name": "wolog-lambda-delete-woday",
+  "version": "0.1.0",
+  "description": "aws lambda for wolog",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "zip": "npm install && zip deleteWoDays.zip node_modules/ index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mojave27/wolog-lambda-deleteWoDay.git"
+  },
+  "keywords": [
+    "wolog",
+    "lambda"
+  ],
+  "author": "Marcus Bailey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mojave27/wolog-lambda-deleteWoDay/issues"
+  },
+  "homepage": "https://github.com/mojave27/wolog-lambda-deleteWoDay#readme",
+  "dependencies": {
+    "uuid": "^8.3.1"
+  }
+}
